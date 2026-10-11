@@ -1,0 +1,29 @@
+{
+  "name": "research-skills",
+  "version": "0.1.0",
+  "platform": "codex",
+  "skills_path": ".agents/skills",
+  "skills": [
+    "dl-baseline-selection",
+    "dl-diagnostic-experiments",
+    "dl-experiment-design",
+    "dl-frontier-scan",
+    "dl-implementation",
+    "dl-literature-map",
+    "dl-math",
+    "dl-method-ideation",
+    "dl-novelty-check",
+    "dl-paper-reading",
+    "dl-paper-revision",
+    "dl-paper-story",
+    "dl-paper-writing",
+    "dl-peer-review",
+    "dl-problem-discovery",
+    "dl-rebuttal",
+    "dl-reproduction",
+    "dl-research-delivery",
+    "dl-result-analysis"
+  ],
+  "subagents": "optional",
+  "verification": "static packaging only; client loading not verified"
+}

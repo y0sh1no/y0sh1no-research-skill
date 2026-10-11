@@ -1,0 +1,72 @@
+[
+  {
+    "source_repo": "wanshuiyin/auto-claude-code-research-in-sleep",
+    "source_commit": "26b95cfa0d8747078e9e43b42e20952709e561b8",
+    "source_path": "skills/research-lit/SKILL.md",
+    "source_url": "https://github.com/wanshuiyin/auto-claude-code-research-in-sleep/blob/26b95cfa0d8747078e9e43b42e20952709e561b8/skills/research-lit/SKILL.md",
+    "license": "MIT",
+    "reading": "摘读",
+    "read_ranges": [
+      {
+        "start": 604,
+        "end": 669
+      }
+    ],
+    "targets": [
+      "skills/dl-literature-map",
+      "skills/dl-frontier-scan",
+      "shared/literature.md"
+    ],
+    "adaptation": "提取问题/机制/结果/相关性、去重与综合；重写检索/版本核验，移除后端和跨家族门禁。",
+    "status": "已纳入（选择性重写；并非整文件移植）"
+  },
+  {
+    "source_repo": "wanshuiyin/auto-claude-code-research-in-sleep",
+    "source_commit": "26b95cfa0d8747078e9e43b42e20952709e561b8",
+    "source_path": "skills/idea-creator/SKILL.md",
+    "source_url": "https://github.com/wanshuiyin/auto-claude-code-research-in-sleep/blob/26b95cfa0d8747078e9e43b42e20952709e561b8/skills/idea-creator/SKILL.md",
+    "license": "MIT",
+    "reading": "摘读",
+    "read_ranges": [
+      {
+        "start": 161,
+        "end": 237
+      },
+      {
+        "start": 323,
+        "end": 359
+      }
+    ],
+    "targets": [
+      "skills/dl-problem-discovery",
+      "skills/dl-method-ideation",
+      "shared/collaboration.md"
+    ],
+    "adaptation": "保留机制迁移、矛盾、假设和诊断角度；取消单一跨模型 jury、固定规模与后续自动试验。",
+    "status": "已纳入（选择性重写；并非整文件移植）"
+  },
+  {
+    "source_repo": "wanshuiyin/auto-claude-code-research-in-sleep",
+    "source_commit": "26b95cfa0d8747078e9e43b42e20952709e561b8",
+    "source_path": "skills/citation-audit/SKILL.md",
+    "source_url": "https://github.com/wanshuiyin/auto-claude-code-research-in-sleep/blob/26b95cfa0d8747078e9e43b42e20952709e561b8/skills/citation-audit/SKILL.md",
+    "license": "MIT",
+    "reading": "摘读",
+    "read_ranges": [
+      {
+        "start": 25,
+        "end": 45
+      },
+      {
+        "start": 66,
+        "end": 121
+      }
+    ],
+    "targets": [
+      "shared/literature.md",
+      "skills/dl-paper-writing"
+    ],
+    "adaptation": "提取身份/元数据/引用语义分别核验；移除逐引文跨模型调用和固定提交门禁。",
+    "status": "已纳入（选择性重写；并非整文件移植）"
+  }
+]

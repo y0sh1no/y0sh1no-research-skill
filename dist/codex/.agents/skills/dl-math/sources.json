@@ -1,0 +1,92 @@
+[
+  {
+    "source_repo": "wanshuiyin/auto-claude-code-research-in-sleep",
+    "source_commit": "26b95cfa0d8747078e9e43b42e20952709e561b8",
+    "source_path": "skills/idea-creator/SKILL.md",
+    "source_url": "https://github.com/wanshuiyin/auto-claude-code-research-in-sleep/blob/26b95cfa0d8747078e9e43b42e20952709e561b8/skills/idea-creator/SKILL.md",
+    "license": "MIT",
+    "reading": "摘读",
+    "read_ranges": [
+      {
+        "start": 161,
+        "end": 237
+      },
+      {
+        "start": 323,
+        "end": 359
+      }
+    ],
+    "targets": [
+      "skills/dl-problem-discovery",
+      "skills/dl-method-ideation",
+      "shared/collaboration.md"
+    ],
+    "adaptation": "保留机制迁移、矛盾、假设和诊断角度；取消单一跨模型 jury、固定规模与后续自动试验。",
+    "status": "已纳入（选择性重写；并非整文件移植）"
+  },
+  {
+    "source_repo": "wanshuiyin/auto-claude-code-research-in-sleep",
+    "source_commit": "26b95cfa0d8747078e9e43b42e20952709e561b8",
+    "source_path": "skills/research-implement-feature/SKILL.md",
+    "source_url": "https://github.com/wanshuiyin/auto-claude-code-research-in-sleep/blob/26b95cfa0d8747078e9e43b42e20952709e561b8/skills/research-implement-feature/SKILL.md",
+    "license": "MIT",
+    "reading": "摘读",
+    "read_ranges": [
+      {
+        "start": 21,
+        "end": 47
+      },
+      {
+        "start": 166,
+        "end": 224
+      }
+    ],
+    "targets": [
+      "skills/dl-implementation",
+      "skills/dl-reproduction",
+      "shared/implementation.md"
+    ],
+    "adaptation": "提取接口与研究语义选择；复用现有实现并说明关键选择；移除强制账本、分层脚手架与裁决门禁。",
+    "status": "已纳入（选择性重写；并非整文件移植）"
+  },
+  {
+    "source_repo": "wanshuiyin/auto-claude-code-research-in-sleep",
+    "source_commit": "26b95cfa0d8747078e9e43b42e20952709e561b8",
+    "source_path": "skills/formula-derivation/SKILL.md",
+    "source_url": "https://github.com/wanshuiyin/auto-claude-code-research-in-sleep/blob/26b95cfa0d8747078e9e43b42e20952709e561b8/skills/formula-derivation/SKILL.md",
+    "license": "MIT",
+    "reading": "摘读",
+    "read_ranges": [
+      {
+        "start": 66,
+        "end": 170
+      }
+    ],
+    "targets": [
+      "skills/dl-math",
+      "skills/dl-paper-reading"
+    ],
+    "adaptation": "保留目标对象、假设与恒等/命题/近似/解释区分；按需推导，不强制证明包。",
+    "status": "已纳入（选择性重写；并非整文件移植）"
+  },
+  {
+    "source_repo": "Galaxy-Dawn/claude-scholar",
+    "source_commit": "2f48ec1dd8423515338e5dc8bccbec16f552c41d",
+    "source_path": "skills/results-analysis/SKILL.md",
+    "source_url": "https://github.com/Galaxy-Dawn/claude-scholar/blob/2f48ec1dd8423515338e5dc8bccbec16f552c41d/skills/results-analysis/SKILL.md",
+    "license": "MIT",
+    "reading": "摘读",
+    "read_ranges": [
+      {
+        "start": 1,
+        "end": 100
+      }
+    ],
+    "targets": [
+      "shared/statistics.md",
+      "skills/dl-result-analysis"
+    ],
+    "adaptation": "保留实验单位、依赖、缺失和可比性；去除固定统计套餐、图数量、文件包和材料不足即停止。",
+    "status": "已纳入（选择性重写；并非整文件移植）"
+  }
+]

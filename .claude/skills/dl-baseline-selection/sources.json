@@ -1,0 +1,47 @@
+[
+  {
+    "source_repo": "wanshuiyin/auto-claude-code-research-in-sleep",
+    "source_commit": "26b95cfa0d8747078e9e43b42e20952709e561b8",
+    "source_path": "skills/idea-creator/SKILL.md",
+    "source_url": "https://github.com/wanshuiyin/auto-claude-code-research-in-sleep/blob/26b95cfa0d8747078e9e43b42e20952709e561b8/skills/idea-creator/SKILL.md",
+    "license": "MIT",
+    "reading": "摘读",
+    "read_ranges": [
+      {
+        "start": 161,
+        "end": 237
+      },
+      {
+        "start": 323,
+        "end": 359
+      }
+    ],
+    "targets": [
+      "skills/dl-problem-discovery",
+      "skills/dl-method-ideation",
+      "shared/collaboration.md"
+    ],
+    "adaptation": "保留机制迁移、矛盾、假设和诊断角度；取消单一跨模型 jury、固定规模与后续自动试验。",
+    "status": "已纳入（选择性重写；并非整文件移植）"
+  },
+  {
+    "source_repo": "wanshuiyin/auto-claude-code-research-in-sleep",
+    "source_commit": "26b95cfa0d8747078e9e43b42e20952709e561b8",
+    "source_path": "skills/experiment-plan/SKILL.md",
+    "source_url": "https://github.com/wanshuiyin/auto-claude-code-research-in-sleep/blob/26b95cfa0d8747078e9e43b42e20952709e561b8/skills/experiment-plan/SKILL.md",
+    "license": "MIT",
+    "reading": "摘读",
+    "read_ranges": [
+      {
+        "start": 25,
+        "end": 120
+      }
+    ],
+    "targets": [
+      "skills/dl-experiment-design",
+      "skills/dl-baseline-selection"
+    ],
+    "adaptation": "保留主张到证据、比较与规格；不规定主张数、实验数、模型家族或固定 seeds。",
+    "status": "已纳入（选择性重写；并非整文件移植）"
+  }
+]

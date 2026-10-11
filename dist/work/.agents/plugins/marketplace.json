@@ -1,0 +1,20 @@
+{
+  "name": "research-skills-local",
+  "interface": {
+    "displayName": "科研能力库"
+  },
+  "plugins": [
+    {
+      "name": "research-skills-work",
+      "source": {
+        "source": "local",
+        "path": "./plugins/research-skills-work"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

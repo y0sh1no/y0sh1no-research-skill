@@ -1,0 +1,124 @@
+[
+  {
+    "source_repo": "wanshuiyin/auto-claude-code-research-in-sleep",
+    "source_commit": "26b95cfa0d8747078e9e43b42e20952709e561b8",
+    "source_path": "skills/idea-creator/SKILL.md",
+    "source_url": "https://github.com/wanshuiyin/auto-claude-code-research-in-sleep/blob/26b95cfa0d8747078e9e43b42e20952709e561b8/skills/idea-creator/SKILL.md",
+    "license": "MIT",
+    "reading": "摘读",
+    "read_ranges": [
+      {
+        "start": 161,
+        "end": 237
+      },
+      {
+        "start": 323,
+        "end": 359
+      }
+    ],
+    "targets": [
+      "skills/dl-problem-discovery",
+      "skills/dl-method-ideation",
+      "shared/collaboration.md"
+    ],
+    "adaptation": "保留机制迁移、矛盾、假设和诊断角度；取消单一跨模型 jury、固定规模与后续自动试验。",
+    "status": "已纳入（选择性重写；并非整文件移植）"
+  },
+  {
+    "source_repo": "wanshuiyin/auto-claude-code-research-in-sleep",
+    "source_commit": "26b95cfa0d8747078e9e43b42e20952709e561b8",
+    "source_path": "skills/analyze-results/SKILL.md",
+    "source_url": "https://github.com/wanshuiyin/auto-claude-code-research-in-sleep/blob/26b95cfa0d8747078e9e43b42e20952709e561b8/skills/analyze-results/SKILL.md",
+    "license": "MIT",
+    "reading": "全文",
+    "read_ranges": [
+      {
+        "start": 1,
+        "end": 46
+      }
+    ],
+    "targets": [
+      "skills/dl-result-analysis"
+    ],
+    "adaptation": "保留观察/解释/意义关系；改写相对提升、统计单位与输出配额。",
+    "status": "已纳入（选择性重写；并非整文件移植）"
+  },
+  {
+    "source_repo": "wanshuiyin/auto-claude-code-research-in-sleep",
+    "source_commit": "26b95cfa0d8747078e9e43b42e20952709e561b8",
+    "source_path": "skills/result-to-claim/SKILL.md",
+    "source_url": "https://github.com/wanshuiyin/auto-claude-code-research-in-sleep/blob/26b95cfa0d8747078e9e43b42e20952709e561b8/skills/result-to-claim/SKILL.md",
+    "license": "MIT",
+    "reading": "摘读",
+    "read_ranges": [
+      {
+        "start": 113,
+        "end": 159
+      }
+    ],
+    "targets": [
+      "shared/evidence.md",
+      "skills/dl-result-analysis"
+    ],
+    "adaptation": "保留结果对主张的支持关系；明确来源/数值/科学支持分层，缺失证据不自动等于反例。",
+    "status": "已纳入（选择性重写；并非整文件移植）"
+  },
+  {
+    "source_repo": "orchestra-research/AI-research-SKILLs",
+    "source_commit": "773a52944ba4747a18bd4ae9ade53fff041adcbc",
+    "source_path": "20-ml-paper-writing/academic-plotting/SKILL.md",
+    "source_url": "https://github.com/orchestra-research/AI-research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/20-ml-paper-writing/academic-plotting/SKILL.md",
+    "license": "MIT",
+    "reading": "摘读",
+    "read_ranges": [
+      {
+        "start": 1,
+        "end": 100
+      }
+    ],
+    "targets": [
+      "shared/figures.md"
+    ],
+    "adaptation": "保留科学数据图与架构图用途区分；图形按判断目标和项目工具选择，不绑定 Gemini。",
+    "status": "已纳入（选择性重写；并非整文件移植）"
+  },
+  {
+    "source_repo": "Galaxy-Dawn/claude-scholar",
+    "source_commit": "2f48ec1dd8423515338e5dc8bccbec16f552c41d",
+    "source_path": "skills/research-ideation/references/research-contract.md",
+    "source_url": "https://github.com/Galaxy-Dawn/claude-scholar/blob/2f48ec1dd8423515338e5dc8bccbec16f552c41d/skills/research-ideation/references/research-contract.md",
+    "license": "MIT",
+    "reading": "全文",
+    "read_ranges": [
+      {
+        "start": 1,
+        "end": 111
+      }
+    ],
+    "targets": [
+      "shared/evidence.md"
+    ],
+    "adaptation": "提取问题—证据—主张关系；简单任务直接表达，材料访问深度与证据质量分开，不沿用强制卡片/等级门禁。",
+    "status": "已纳入（选择性重写；并非整文件移植）"
+  },
+  {
+    "source_repo": "Galaxy-Dawn/claude-scholar",
+    "source_commit": "2f48ec1dd8423515338e5dc8bccbec16f552c41d",
+    "source_path": "skills/results-analysis/SKILL.md",
+    "source_url": "https://github.com/Galaxy-Dawn/claude-scholar/blob/2f48ec1dd8423515338e5dc8bccbec16f552c41d/skills/results-analysis/SKILL.md",
+    "license": "MIT",
+    "reading": "摘读",
+    "read_ranges": [
+      {
+        "start": 1,
+        "end": 100
+      }
+    ],
+    "targets": [
+      "shared/statistics.md",
+      "skills/dl-result-analysis"
+    ],
+    "adaptation": "保留实验单位、依赖、缺失和可比性；去除固定统计套餐、图数量、文件包和材料不足即停止。",
+    "status": "已纳入（选择性重写；并非整文件移植）"
+  }
+]

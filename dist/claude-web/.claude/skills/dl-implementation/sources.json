@@ -1,0 +1,128 @@
+[
+  {
+    "source_repo": "wanshuiyin/auto-claude-code-research-in-sleep",
+    "source_commit": "26b95cfa0d8747078e9e43b42e20952709e561b8",
+    "source_path": "skills/idea-creator/SKILL.md",
+    "source_url": "https://github.com/wanshuiyin/auto-claude-code-research-in-sleep/blob/26b95cfa0d8747078e9e43b42e20952709e561b8/skills/idea-creator/SKILL.md",
+    "license": "MIT",
+    "reading": "摘读",
+    "read_ranges": [
+      {
+        "start": 161,
+        "end": 237
+      },
+      {
+        "start": 323,
+        "end": 359
+      }
+    ],
+    "targets": [
+      "skills/dl-problem-discovery",
+      "skills/dl-method-ideation",
+      "shared/collaboration.md"
+    ],
+    "adaptation": "保留机制迁移、矛盾、假设和诊断角度；取消单一跨模型 jury、固定规模与后续自动试验。",
+    "status": "已纳入（选择性重写；并非整文件移植）"
+  },
+  {
+    "source_repo": "wanshuiyin/auto-claude-code-research-in-sleep",
+    "source_commit": "26b95cfa0d8747078e9e43b42e20952709e561b8",
+    "source_path": "skills/research-implement-feature/SKILL.md",
+    "source_url": "https://github.com/wanshuiyin/auto-claude-code-research-in-sleep/blob/26b95cfa0d8747078e9e43b42e20952709e561b8/skills/research-implement-feature/SKILL.md",
+    "license": "MIT",
+    "reading": "摘读",
+    "read_ranges": [
+      {
+        "start": 21,
+        "end": 47
+      },
+      {
+        "start": 166,
+        "end": 224
+      }
+    ],
+    "targets": [
+      "skills/dl-implementation",
+      "skills/dl-reproduction",
+      "shared/implementation.md"
+    ],
+    "adaptation": "提取接口与研究语义选择；复用现有实现并说明关键选择；移除强制账本、分层脚手架与裁决门禁。",
+    "status": "已纳入（选择性重写；并非整文件移植）"
+  },
+  {
+    "source_repo": "orchestra-research/AI-research-SKILLs",
+    "source_commit": "773a52944ba4747a18bd4ae9ade53fff041adcbc",
+    "source_path": "10-optimization/ml-training-recipes/SKILL.md",
+    "source_url": "https://github.com/orchestra-research/AI-research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/10-optimization/ml-training-recipes/SKILL.md",
+    "license": "MIT",
+    "reading": "摘读",
+    "read_ranges": [
+      {
+        "start": 1,
+        "end": 110
+      }
+    ],
+    "targets": [
+      "technical/training.md"
+    ],
+    "adaptation": "重写适用条件和科研语义，删去泛化规模/性能宣传、旧示例与自动循环；采用接口另查当前官方文档，未运行训练。",
+    "status": "已纳入（选择性重写；并非整文件移植）"
+  },
+  {
+    "source_repo": "orchestra-research/AI-research-SKILLs",
+    "source_commit": "773a52944ba4747a18bd4ae9ade53fff041adcbc",
+    "source_path": "03-fine-tuning/peft/SKILL.md",
+    "source_url": "https://github.com/orchestra-research/AI-research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/03-fine-tuning/peft/SKILL.md",
+    "license": "MIT",
+    "reading": "摘读",
+    "read_ranges": [
+      {
+        "start": 1,
+        "end": 110
+      }
+    ],
+    "targets": [
+      "technical/peft.md"
+    ],
+    "adaptation": "重写适用条件和科研语义，删去泛化规模/性能宣传、旧示例与自动循环；采用接口另查当前官方文档，未运行训练。",
+    "status": "已纳入（选择性重写；并非整文件移植）"
+  },
+  {
+    "source_repo": "orchestra-research/AI-research-SKILLs",
+    "source_commit": "773a52944ba4747a18bd4ae9ade53fff041adcbc",
+    "source_path": "08-distributed-training/accelerate/SKILL.md",
+    "source_url": "https://github.com/orchestra-research/AI-research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/08-distributed-training/accelerate/SKILL.md",
+    "license": "MIT",
+    "reading": "摘读",
+    "read_ranges": [
+      {
+        "start": 1,
+        "end": 110
+      }
+    ],
+    "targets": [
+      "technical/accelerate.md"
+    ],
+    "adaptation": "重写适用条件和科研语义，删去泛化规模/性能宣传、旧示例与自动循环；采用接口另查当前官方文档，未运行训练。",
+    "status": "已纳入（选择性重写；并非整文件移植）"
+  },
+  {
+    "source_repo": "orchestra-research/AI-research-SKILLs",
+    "source_commit": "773a52944ba4747a18bd4ae9ade53fff041adcbc",
+    "source_path": "08-distributed-training/pytorch-lightning/SKILL.md",
+    "source_url": "https://github.com/orchestra-research/AI-research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/08-distributed-training/pytorch-lightning/SKILL.md",
+    "license": "MIT",
+    "reading": "摘读",
+    "read_ranges": [
+      {
+        "start": 1,
+        "end": 110
+      }
+    ],
+    "targets": [
+      "technical/lightning.md"
+    ],
+    "adaptation": "重写适用条件和科研语义，删去泛化规模/性能宣传、旧示例与自动循环；采用接口另查当前官方文档，未运行训练。",
+    "status": "已纳入（选择性重写；并非整文件移植）"
+  }
+]
